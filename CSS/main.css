@@ -3,15 +3,17 @@ html {
 }
 
 h1 {
-  font-family: 'Bevan', sans-serif;
+  font-family: "Bevan", sans-serif;
   color: #fff;
   text-align: center;
+  margin: .3em;
 }
 
-nav li{
-display: inline;
-line-height: 1.5;
-color: #fff;
+nav li {
+  display: inline;
+  line-height: 1.5;
+  color: #fff;
+  font-family: "Helvetica", sans-serif;
 }
 
 ul {
@@ -26,5 +28,7 @@ h1 nav {
 .planetsli {
   background-color: #713837;
   padding: .6em;
+  margin: .08em;
+  border-radius: 4px;
 
 }
