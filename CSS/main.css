@@ -1,34 +1,41 @@
 html {
   background-color: #dbd6cf;
+  box-sizing: border-box;
 }
 
 h1 {
   font-family: "Bevan", sans-serif;
   color: #fff;
   text-align: center;
-  margin: .3em;
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
   line-height: 1.5;
   color: #fff;
   font-family: "Helvetica", sans-serif;
+  margin: .3em;
 }
 
 ul {
   list-style-type: none;
-}
-
-h1 nav {
-  background-color: #79756f;
-
+  text-align: center;
 }
 
 .planetsli {
   background-color: #713837;
   padding: .6em;
-  margin: .08em;
   border-radius: 4px;
-
+  margin: .2em;
 }
+
+header {
+  background-color: #79756f;
+  padding: .01em;
+  border-width: medium;
+  border-color: #595652;
+  border-style: solid;
+}
+  a:hover {
+    color: #f33;
+  }
