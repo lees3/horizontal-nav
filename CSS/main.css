@@ -1,0 +1,30 @@
+html {
+  background-color: #dbd6cf;
+}
+
+h1 {
+  font-family: 'Bevan', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+nav li{
+display: inline;
+line-height: 1.5;
+color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 nav {
+  background-color: #79756f;
+
+}
+
+.planetsli {
+  background-color: #713837;
+  padding: .6em;
+
+}
