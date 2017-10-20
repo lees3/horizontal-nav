@@ -1,20 +1,33 @@
 html {
-  background-color: #dbd6cf;
   box-sizing: border-box;
+  background-color: #dbd6cf;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: .3em;
+  padding-left: : .6em;
+  padding-right: .6em;
 }
 
 h1 {
   font-family: "Bevan", sans-serif;
   color: #fff;
   text-align: center;
+  margin-top: .3em;
+  margin-bottom: .3em;
 }
 
 nav li {
-  display: inline-block;
   line-height: 1.5;
   color: #fff;
   font-family: "Helvetica", sans-serif;
   margin: .3em;
+  text-align: center;
+  padding: .3em;
 }
 
 ul {
@@ -23,10 +36,10 @@ ul {
 }
 
 .planetsli {
+  display: inline-block;
   background-color: #713837;
   padding: .6em;
   border-radius: 4px;
-  margin: .2em;
 }
 
 header {
@@ -35,7 +48,8 @@ header {
   border-width: medium;
   border-color: #595652;
   border-style: solid;
+  text-align: center;
 }
-  a:hover {
-    color: #f33;
-  }
+a:hover {
+  color: #f33;
+}
