@@ -8,48 +8,50 @@ html {
 }
 
 body {
-  margin: .3em;
-  padding-left: : .6em;
-  padding-right: .6em;
+  margin: 0em;
 }
-
 h1 {
-  font-family: "Bevan", sans-serif;
+  font-family: Bevan, sans-serif;
   color: #fff;
   text-align: center;
   margin-top: .3em;
-  margin-bottom: .3em;
+  margin-bottom: 0em;
+  padding-top: 0em;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding-left: .6em;
+  padding-right: .6em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin: 0em;
+  display: inline-block;
 }
 
 nav li {
   line-height: 1.5;
   color: #fff;
   font-family: "Helvetica", sans-serif;
-  margin: .3em;
+  margin-top: 0em;
+  margin-bottom: .3em;
   text-align: center;
-  padding: .3em;
-}
-
-ul {
-  list-style-type: none;
-  text-align: center;
-}
-
-.planetsli {
+  padding: .6em;
   display: inline-block;
   background-color: #713837;
-  padding: .6em;
   border-radius: 4px;
+  width: auto;
 }
 
 header {
   background-color: #79756f;
   padding: .01em;
-  border-width: medium;
   border-color: #595652;
   border-style: solid;
   text-align: center;
 }
+
 a:hover {
   color: #f33;
 }
